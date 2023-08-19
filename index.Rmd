@@ -5,9 +5,9 @@ output:
     self_contained: false
     default_style: "dark"
     downcute_theme: "chaos"
+output_dir: "../docs"
 editor_options: 
   chunk_output_type: console
-output_dir: docs
 ---
 
 ```{r setup, include=FALSE}
@@ -38,6 +38,11 @@ $(function(){{
 
 
 ```
+
+```{r}
+sample(letters,5)
+```
+
 
 
 ```{js}
